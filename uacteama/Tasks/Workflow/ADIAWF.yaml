@@ -1,0 +1,155 @@
+type: taskWorkflow
+actions:
+  abortActions: []
+  emailNotifications: []
+  setVariableActions: []
+  snmpNotifications: []
+  systemOperations: []
+avgRunTime: 119
+avgRunTimeDisplay: 1 Minute 59 Seconds
+calculateCp: false
+calendar:
+cpDuration:
+cpDurationUnit: Minutes
+created: 2025-11-13 04:11:10 -0500
+createdBy: nbuer
+criticalEndpoints: []
+customChoiceField1:
+  label: (LogX or DocX)
+  value:
+customField1:
+  label: URL-LINK
+  value:
+customField2:
+  label: Note
+  value:
+efDayConstraint: None
+efDuration: 00:00:00:00
+efEnabled: false
+efNthAmount: 5
+efOffsetDuration:
+efOffsetDurationUnit: Minutes
+efOffsetPercentage: 0
+efOffsetType: Percentage
+efTime: 00:00
+efType: Time
+enforceVariables: false
+exclusiveTasks: []
+exclusiveWithSelf: false
+executionRestriction: None
+exportReleaseLevel: 8.0.0.0
+exportTable: ops_task_workflow
+firstRun: 2025-11-13 04:16:32 -0500
+holdResources: false
+instanceWait: -- None --
+instanceWaitLookup: Task
+lastRun: 2025-11-13 05:32:21 -0500
+lastRunTime: 128
+lastRunTimeDisplay: 2 Minutes 8 Seconds
+layoutOption: -- None --
+lfDayConstraint: None
+lfDuration: 00:00:00:00
+lfEnabled: false
+lfNthAmount: 5
+lfOffsetDuration:
+lfOffsetDurationUnit: Minutes
+lfOffsetPercentage: 0
+lfOffsetType: Percentage
+lfTime: 00:00
+lfType: Time
+lockVariables: false
+logLevel: Inherited
+lsDayConstraint: None
+lsDuration: 00:00:00:00
+lsEnabled: false
+lsNthAmount: 5
+lsTime: 00:00
+lsType: Time
+maxRunTime: 128
+maxRunTimeDisplay: 2 Minutes 8 Seconds
+minRunTime: 109
+minRunTimeDisplay: 1 Minute 49 Seconds
+name: ADIAWF
+notes: []
+numberOfTasks: 3
+opswiseGroups: []
+overrideCalendar: false
+overrideInstanceWait: "No"
+resPriority: 10
+resPriorityVar:
+resolveNameImmediately: false
+restrictionPeriod: None
+restrictionPeriodAfterDate:
+restrictionPeriodAfterTime:
+restrictionPeriodBeforeDate:
+restrictionPeriodBeforeTime:
+restrictionPeriodDateList: []
+retainSysIds: true
+runCount: 2
+runCriteria: []
+runTime: 237
+simulation: true
+skippedOption: Show Skipped
+startHeld: false
+startHeldReason:
+stepActions: []
+stepConditions: []
+summary:
+sysId: 9547c63297b0460aad63fd9f0ad7886d
+timeZonePref: -- System Default --
+twDelayAmount:
+twDelayDuration: 00:00:00:00
+twDelayType: None
+twWaitAmount:
+twWaitDayConstraint: None
+twWaitDuration: 00:00:00:00
+twWaitTime: 00:00
+twWaitType: None
+twWorkflowOnly: -- System Default --
+updated: 2025-11-13 07:43:21 -0500
+updatedBy: ops.admin
+userEstimatedDuration:
+variables: []
+version: 9
+virtualResources: []
+workflowEdges:
+- condition:
+    value: Success
+  sourceId:
+    taskName: Adia1-a
+    value: '7'
+  straightEdge: false
+  targetId:
+    taskName: Adia2-updated
+    value: '8'
+- condition:
+    value: Success
+  sourceId:
+    taskName: Adia2-updated
+    value: '8'
+  straightEdge: false
+  targetId:
+    taskName: Adia3
+    value: '10'
+workflowVertices:
+- alias:
+  conditionExpression:
+  task:
+    value: Adia1-a
+  vertexId: '7'
+  vertexX: '30'
+  vertexY: '25'
+- alias:
+  conditionExpression:
+  task:
+    value: Adia2-updated
+  vertexId: '8'
+  vertexX: '143'
+  vertexY: '25'
+- alias:
+  conditionExpression:
+  task:
+    value: Adia3
+  vertexId: '10'
+  vertexX: '256'
+  vertexY: '25'

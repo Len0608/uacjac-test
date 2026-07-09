@@ -1,0 +1,98 @@
+type: taskSleep
+actions:
+  abortActions: []
+  emailNotifications: []
+  setVariableActions: []
+  snmpNotifications: []
+  systemOperations: []
+avgRunTime: 20
+avgRunTimeDisplay: 20 Seconds
+cpDuration:
+cpDurationUnit: Minutes
+created: 2025-11-13 04:12:43 -0500
+createdBy: nbuer
+customChoiceField1:
+  label: (LogX or DocX)
+  value:
+customField1:
+  label: URL-LINK
+  value:
+customField2:
+  label: Note
+  value:
+efDayConstraint: None
+efDuration: 00:00:00:00
+efEnabled: false
+efNthAmount: 5
+efOffsetDuration:
+efOffsetDurationUnit: Minutes
+efOffsetPercentage: 0
+efOffsetType: Percentage
+efTime: 00:00
+efType: Time
+enforceVariables: false
+exclusiveTasks: []
+exclusiveWithSelf: false
+executionRestriction: None
+exportReleaseLevel: 8.0.0.0
+exportTable: ops_task_sleep
+firstRun: 2025-11-13 04:16:12 -0500
+holdResources: false
+lastRun: 2025-11-13 05:32:01 -0500
+lastRunTime: 20
+lastRunTimeDisplay: 20 Seconds
+lfDayConstraint: None
+lfDuration: 00:00:00:00
+lfEnabled: false
+lfNthAmount: 5
+lfOffsetDuration:
+lfOffsetDurationUnit: Minutes
+lfOffsetPercentage: 0
+lfOffsetType: Percentage
+lfTime: 00:00
+lfType: Time
+lockVariables: false
+logLevel: Inherited
+lsDayConstraint: None
+lsDuration: 00:00:00:00
+lsEnabled: false
+lsNthAmount: 5
+lsTime: 00:00
+lsType: Time
+maxRunTime: 20
+maxRunTimeDisplay: 20 Seconds
+minRunTime: 20
+minRunTimeDisplay: 20 Seconds
+name: Adia2-updated
+notes: []
+opswiseGroups: []
+overrideInstanceWait: "No"
+resPriority: 10
+resPriorityVar:
+resolveNameImmediately: false
+restrictionPeriod: None
+restrictionPeriodAfterDate:
+restrictionPeriodAfterTime:
+restrictionPeriodBeforeDate:
+restrictionPeriodBeforeTime:
+restrictionPeriodDateList: []
+retainSysIds: true
+runCount: 2
+runTime: 40
+simulation: true
+sleepAmount: '20'
+sleepDayConstraint: None
+sleepDuration: 00:00:00:00
+sleepTime: 00:00
+sleepType: Seconds
+startHeld: false
+startHeldReason:
+summary:
+sysId: ec385655d5c14031896c13e5f9313ed4
+timeZonePref: -- System Default --
+updated: 2026-03-13 04:58:41 -0400
+updatedBy: nbuer
+userEstimatedDuration:
+variables: []
+version: 3
+virtualResources: []
