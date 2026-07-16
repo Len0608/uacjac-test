@@ -13,7 +13,7 @@ avgRunTime: 0
 avgRunTimeDisplay: 0 Seconds
 broadcastCluster:
 broadcastClusterVar:
-command: ping -w 10 localhost:8080
+command: ping -ewjew 10 localhost:8080
 commandOrScript: Command
 cpDuration:
 cpDurationUnit: Minutes
