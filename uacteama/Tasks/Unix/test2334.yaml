@@ -13,12 +13,23 @@ avgRunTime: 0
 avgRunTimeDisplay: 0 Seconds
 broadcastCluster:
 broadcastClusterVar:
-command: ping -w 10 localhost
+command: ping -ewjew 10 localhost:8080
 commandOrScript: Command
 cpDuration:
 cpDurationUnit: Minutes
+created: 2025-07-02 08:12:57 -0400
+createdBy: len
 credentials:
 credentialsVar:
+customChoiceField1:
+  label: (LogX or DocX)
+  value:
+customField1:
+  label: URL-LINK
+  value: UserDefined field / "namespace example"
+customField2:
+  label: Note
+  value:
 efDayConstraint: None
 efDuration: 00:00:00:00
 efEnabled: false
@@ -40,7 +51,21 @@ exitCodeText:
 exitCodes: '0'
 exportReleaseLevel: 8.0.0.0
 exportTable: ops_task_unix
+firstRun: 2025-07-02 08:13:18 -0400
 holdResources: false
+lastRun: 2026-06-22 06:15:19 -0400
+lastRunTime: 0
+lastRunTimeDisplay: 0 Seconds
+lfDayConstraint: None
+lfDuration: 00:00:00:00
+lfEnabled: false
+lfNthAmount: 5
+lfOffsetDuration:
+lfOffsetDurationUnit: Minutes
+lfOffsetPercentage: 0
+lfOffsetType: Percentage
+lfTime: 00:00
+lfType: Time
 lockVariables: false
 logLevel: Inherited
 lsDayConstraint: None
@@ -69,6 +94,10 @@ resPriority: 10
 resPriorityVar:
 resolveNameImmediately: false
 restrictionPeriod: None
+restrictionPeriodAfterDate:
+restrictionPeriodAfterTime:
+restrictionPeriodBeforeDate:
+restrictionPeriodBeforeTime:
 restrictionPeriodDateList: []
 retainSysIds: true
 retryExitCodes:
@@ -77,6 +106,8 @@ retryInterval: 60
 retryMaximum: 0
 retrySuppressFailure: false
 runAsSudo: false
+runCount: 77
+runTime: 0
 runtimeDir:
 script:
 simulation: false
@@ -94,6 +125,9 @@ twWaitDuration: 00:00:00:00
 twWaitTime: 00:00
 twWaitType: None
 twWorkflowOnly: -- System Default --
+updated: 2026-07-07 10:31:06 -0400
+updatedBy: len
+userEstimatedDuration:
 variables: []
 version: 9
 virtualResources: []
