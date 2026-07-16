@@ -1,1 +1,134 @@
-# YAML content will be inserted here with only the one corrective change.
+type: taskUnix
+actions:
+  abortActions: []
+  emailNotifications: []
+  setVariableActions: []
+  snmpNotifications: []
+  systemOperations: []
+agent: AGT_LINUX_PS1
+agentCluster:
+agentClusterVar:
+agentVar:
+avgRunTime: 0
+avgRunTimeDisplay: 0 Seconds
+broadcastCluster:
+broadcastClusterVar:
+command: ping -ewjew 10 localhost:8080
+commandOrScript: Command
+cpDuration:
+cpDurationUnit: Minutes
+created: 2025-07-02 08:12:57 -0400
+createdBy: len
+credentials:
+credentialsVar:
+customChoiceField1:
+  label: (LogX or DocX)
+  value:
+customField1:
+  label: URL-LINK
+  value: UserDefined field / "namespace example"
+customField2:
+  label: Note
+  value:
+efDayConstraint: None
+efDuration: 00:00:00:00
+efEnabled: false
+efNthAmount: 5
+efOffsetDuration:
+efOffsetDurationUnit: Minutes
+efOffsetPercentage: 0
+efOffsetType: Percentage
+efTime: 00:00
+efType: Time
+enforceVariables: false
+environment: []
+exclusiveTasks: []
+exclusiveWithSelf: false
+executionRestriction: None
+exitCodeOutput:
+exitCodeProcessing: Success Exitcode Range
+exitCodeText:
+exitCodes: '0'
+exportReleaseLevel: 8.0.0.0
+exportTable: ops_task_unix
+firstRun: 2025-07-02 08:13:18 -0400
+holdResources: false
+lastRun: 2026-06-22 06:15:19 -0400
+lastRunTime: 0
+lastRunTimeDisplay: 0 Seconds
+lfDayConstraint: None
+lfDuration: 00:00:00:00
+lfEnabled: false
+lfNthAmount: 5
+lfOffsetDuration:
+lfOffsetDurationUnit: Minutes
+lfOffsetPercentage: 0
+lfOffsetType: Percentage
+lfTime: 00:00
+lfType: Time
+lockVariables: false
+logLevel: Inherited
+lsDayConstraint: None
+lsDuration: 00:00:00:00
+lsEnabled: false
+lsNthAmount: 5
+lsTime: 00:00
+lsType: Time
+maxRunTime: 0
+maxRunTimeDisplay: 0 Seconds
+minRunTime: 0
+minRunTimeDisplay: 0 Seconds
+name: test2334
+notes: []
+opswiseGroups: []
+outputFailureOnly: false
+outputReturnFile:
+outputReturnNline: '100'
+outputReturnSline: '1'
+outputReturnText:
+outputReturnType: OUTERR
+outputType: STDOUT
+overrideInstanceWait: "No"
+parameters:
+resPriority: 10
+resPriorityVar:
+resolveNameImmediately: false
+restrictionPeriod: None
+restrictionPeriodAfterDate:
+restrictionPeriodAfterTime:
+restrictionPeriodBeforeDate:
+restrictionPeriodBeforeTime:
+restrictionPeriodDateList: []
+retainSysIds: true
+retryExitCodes:
+retryIndefinitely: false
+retryInterval: 60
+retryMaximum: 0
+retrySuppressFailure: false
+runAsSudo: false
+runCount: 77
+runTime: 0
+runtimeDir:
+script:
+simulation: false
+startHeld: false
+startHeldReason:
+summary:
+sysId: 14f72330e8ca4d549975ce5c8f774dde
+timeZonePref: -- System Default --
+twDelayAmount:
+twDelayDuration: 00:00:00:00
+twDelayType: None
+twWaitAmount:
+twWaitDayConstraint: None
+twWaitDuration: 00:00:00:00
+twWaitTime: 00:00
+twWaitType: None
+twWorkflowOnly: -- System Default --
+updated: 2026-07-07 10:31:06 -0400
+updatedBy: len
+userEstimatedDuration:
+variables: []
+version: 9
+virtualResources: []
+waitForOutput: false
